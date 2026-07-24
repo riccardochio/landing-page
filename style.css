@@ -1,0 +1,19 @@
+.nav-bar{
+    display:flex;
+}
+
+ul{
+    display: flex;
+}
+
+.title{
+    display:flex;
+}
+
+.cards-container{
+    display:flex;
+}
+
+.fourth-section{
+    display:flex;
+}
