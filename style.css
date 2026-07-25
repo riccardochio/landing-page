@@ -1,19 +1,121 @@
-.nav-bar{
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+}
+
+/* ------- header------- */
+.first-section{
+    background-color: #1F2937;
+    color: white;
+    padding-top: 20px;
+    padding-inline: 18%;
+    padding-bottom: 110px;
+}
+
+.header{
     display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul{
     display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
-.title{
+li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero{
     display:flex;
+    align-items: stretch;
+    margin-top: 90px;
+    padding-inline: 0;
+    gap:48px;
+}
+
+.hero-description{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.hero-description p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin:0;
+    margin-bottom: 8px;
+}
+
+.hero-description button{
+    border: 2px solid #3882F6;
+    align-self: flex-start;
+}
+
+.hero-image{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ------- second-section ------- */
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .cards-container{
     display:flex;
 }
 
+/* ------- third-section ------- */
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* ------- fourth-section ------- */
 .fourth-section{
+    background-color: #3882F6;
     display:flex;
+    color: white;
+}
+
+.fourth-section button{
+    border: 2px solid white;
+}
+
+/* ------- footer ------- */
+footer{
+    background-color: #1F2937;
+    color: white;
 }
