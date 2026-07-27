@@ -5,6 +5,10 @@ body{
 button{
     background-color: #3882F6;
     color: white;
+    border-radius: 4px;
+    padding: 5px;
+    padding-inline: 5%;
+    font-weight: bold;
 }
 
 /* ------- header------- */
@@ -85,14 +89,35 @@ h1{
 }
 
 /* ------- second-section ------- */
+.features{
+    padding-inline: 20%;
+    padding-bottom: 110px;
+}
+
 h2{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .cards-container{
     display:flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.cards-container p{
+    text-align: center;
+}
+
+.image-placeholder{
+    border: 2px solid #3882F6;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 /* ------- third-section ------- */
