@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
 
 button{
@@ -16,7 +17,7 @@ button{
     color: white;
     padding-top: 20px;
     padding-inline: 15%;
-    padding-bottom: 110px;
+    padding-bottom: 140px;
 }
 
 .header{
@@ -45,7 +46,6 @@ li{
 
 .hero{
     display:flex;
-    align-items: stretch;
     margin-top: 90px;
     padding-inline: 0;
     gap:48px;
@@ -69,8 +69,7 @@ h1{
 .hero-description p{
     font-size: 18px;
     color: #E5E7EB;
-    margin:0;
-    margin-bottom: 8px;
+    margin:0 0 8px;
 }
 
 .hero-description button{
@@ -121,10 +120,8 @@ h2{
 
 /* ------- third-section ------- */
 .quote{
-    padding-inline: 22%;
+    padding: 60px 22%;
     background-color: #E5E7EB;
-    padding-top: 60px;
-    padding-bottom: 60px;
     color:#1F2937;
 }
 
@@ -145,9 +142,7 @@ h2{
     background-color: #3882F6;
     display:flex;
     color: white;
-    margin-inline: 15%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 15%;
     border-radius: 8px;
     padding: 3% 10%;
     justify-content: space-between;
